@@ -16,16 +16,16 @@ function Navbar() {
 
   return (
     <header className="bg-bgMain relative">
-      <nav className="w-full px-4 md:px-10 py-4 flex items-center justify-between">
+      <nav className="w-full px-5 md:px-10 py-4 flex items-center justify-between">
         
         {/* Logo */}
         <h1 className="text-title text-2xl md:text-4xl font-medium flex-shrink-0">
-          Medi<span className="text-primary font-bold">Talk</span>
+          Line<span className="text-primary font-bold">Study</span>
         </h1>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex gap-8 text-body text-lg font-medium">
-          {["Home", "Find Doctor", "About us", "Our services", "Contact"].map(
+        <ul className="hidden md:flex gap-8 text-body text-m font-medium">
+          {["Home", "About us", "Our Team", "Our services", "Contact"].map(
             (item) => (
               <li
                 key={item}
@@ -38,7 +38,7 @@ function Navbar() {
         </ul>
 
         {/* Actions */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1">
           
           {/* Theme button */}
           <button
@@ -70,7 +70,7 @@ function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-bgMain px-6 py-6 space-y-6 shadow-lg">
+        <div className="md:hidden absolute top-full   w-full bg-bgMain px-6 py-6 space-y-6 shadow-lg">
           {["Home", "Find Doctor", "About us", "Our services", "Contact"].map(
             (item) => (
               <p

@@ -2,7 +2,7 @@ import React from 'react'
 
 function PrimaryButton({children}) {
   return (
-    <button className='bg-primary px-10 py-3 text-white rounded-full text-lg font-medium'>
+    <button className='bg-primary px-8 py-3 text-white rounded-full text-m font-medium'>
         {children}
     </button>
   )
