@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <header className="bg-bgMain relative">
-      <nav className="w-full px-5 md:px-10 py-4 flex items-center justify-between">
+      <nav className="w-full px-10 md:px-28 py-4 flex items-center justify-between">
         
         {/* Logo */}
         <h1 className="text-title text-2xl md:text-4xl font-medium flex-shrink-0">
@@ -24,7 +24,7 @@ function Navbar() {
         </h1>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex gap-8 text-body text-m font-medium">
+        <ul className="hidden md:flex gap-5 text-body text-m font-medium">
           {["Home", "About us", "Our Team", "Our services", "Contact"].map(
             (item) => (
               <li
@@ -38,7 +38,7 @@ function Navbar() {
         </ul>
 
         {/* Actions */}
-        <div className="flex items-center gap-1">
+        <div className="flex items-center ">
           
           {/* Theme button */}
           <button
